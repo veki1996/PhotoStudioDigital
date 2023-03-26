@@ -1,0 +1,1080 @@
+body {
+    font-family: "Questrial", sans-serif;
+    margin: 0px;
+    background-color: #f6f6f3;
+}
+
+#login-modal {
+    display: none;
+    background-color: #bbbba3;
+    box-shadow: rgba(255, 255, 255, 0.8)0 0 1000px 1000px;
+    max-width: 350px;
+    margin: auto;
+    padding: 50px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 13px 0px grey;
+}
+
+#login-modal div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 300px;
+    padding: 10px;
+}
+
+#loginBtn {
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#NemasNalog p {
+    text-align: center;
+
+    margin: 0px;
+}
+
+#NemasNalog {
+    align-items: center;
+}
+
+#NemasNalog button {
+    width: 200px;
+    width: 110px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: none;
+}
+
+#login-modal div input {
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#closeModal {
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+
+}
+
+
+.custom-modal {
+    display: none;
+    background-color: #bbbba3;
+    box-shadow: rgba(255, 255, 255, 0.8) 0 0 1000px 1000px;
+    max-width: 650px;
+    margin: auto;
+    padding: 50px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+}
+
+.onpagemenu {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+
+}
+
+.onpagemenu li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.onpagemenu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.singleItem ul {
+    list-style: none;
+    padding: 0px;
+    color: red;
+}
+
+#RegistrationForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-modal button#closeModalReg {
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+
+}
+
+.chat {
+    position: fixed;
+    bottom: 23px;
+    right: 10px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+#chatICONS {
+    display: flex;
+    justify-content: end;
+}
+
+.display {
+    display: none;
+}
+
+.ask {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 1em;
+    height: 200px;
+    box-shadow: 0px 0px 13px 0px grey;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.ask input {
+    padding: 10px;
+    border-style: solid none solid none;
+}
+
+.ask button {
+    border: 0px;
+    font-family: inherit;
+    width: 100%;
+    max-width: 320px;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    outline-offset: 2px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 0, 240);
+    margin-top: 8px;
+}
+
+#question {
+    width: 202px;
+    height: 116px;
+    border-radius: 0px;
+
+}
+
+.logoChat {
+    width: 170px !important;
+    border-radius: 0px !important;
+    display: block !important;
+
+}
+
+.displayBlock {
+    display: none;
+}
+
+.chat-logo {
+    border-radius: 0% !important;
+    width: 160px !important;
+}
+
+#Name {
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    padding: 8px;
+    margin: 2px 0px;
+}
+
+.chatBTN {
+    width: 100%;
+    max-width: 320px;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    outline-offset: 2px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 0, 240);
+    margin-top: 8px;
+}
+
+#Email {
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    padding: 8px;
+    margin: 2px 0px;
+}
+
+.NameEror {
+    margin-top: 0px;
+    color: red;
+}
+
+.EmailEror {
+    margin-top: 0px;
+    color: red;
+}
+
+.chatsForCLients {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 1em;
+    height: 400px;
+    box-shadow: 0px 0px 13px 0px grey;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.closeChat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.MENU {
+
+    position: sticky;
+    top: 0;
+    z-index: 10
+}
+
+.underline {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    left: 60px;
+    top: 40px;
+}
+
+.menu-end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.first-step {
+    display: flex;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.closeMENU {
+    max-width: 300px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 100px;
+    color: #535353;
+    font-family: "DM Serif Text", serif;
+    display: none;
+
+
+}
+
+.closeMENU li {
+    list-style: none;
+    font-size: 3rem;
+    line-height: 5rem;
+    cursor: pointer;
+
+}
+
+li:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.fakju {
+    display: none;
+}
+
+.icons2 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.first-part {
+
+    font-size: 5rem;
+    color: #101010;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    padding: 0rem 10rem 0rem 10rem;
+    background-color: #f6f6f3;
+
+}
+
+.Bojan {
+    font-size: 1.3rem;
+    color: #454545;
+    font-family: "Questrial", sans-serif;
+    font-weight: 700;
+}
+
+.lorem {
+    font-size: small;
+    color: #454545;
+
+    font-family: "Questrial", sans-serif;
+}
+
+.Btn-contact {
+    cursor: pointer;
+    border-radius: 0rem;
+    font-family: "Questrial", sans-serif;
+    font-size: 0.9rem;
+    padding: 0.9rem 2rem 0.9rem 2rem;
+}
+
+.img-holder {
+    background-image: url("slike/slika1.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 86vh;
+    filter: contrast(150%) brightness(20%);
+    transition: filter 0.6s ease-in-out;
+
+}
+
+.img-holder:hover {
+    filter: none;
+}
+
+.about {
+    padding: 10rem 1rem 10rem 1rem;
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img {
+    width: 500px;
+    height: 88vh;
+}
+
+.text-for-box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5rem;
+    background-color: #f6f6f3;
+}
+
+.text-for-box h1 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #101010;
+    font-weight: 500;
+    font-family: "Playfair Display", sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.text-for-box h2 {
+    color: #101010;
+    font-size: 1.1rem;
+    font-family: "Questrial", sans-serif;
+    font-weight: 900;
+
+}
+
+.text-for-box p {
+    position: relative;
+    color: #52565b;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+.service {
+    text-align: center;
+    font-size: 3rem;
+    color: #101010;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    background-color: #f6f6f3;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Wedding {
+    background-image: url("slike/svadba.JPG");
+    background-size: cover;
+    width: 500px;
+    height: 40rem;
+    object-fit: cover;
+    position: relative;
+    filter: contrast(150%) brightness(60%);
+    transition: filter 0.6s ease-in-out;
+}
+
+.Shooting {
+    background-image: url("slike/shoting.JPG");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 40rem;
+    object-fit: cover;
+    position: relative;
+    filter: contrast(150%) brightness(60%);
+    transition: filter 0.6s ease-in-out;
+}
+
+.My-Services {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f3;
+}
+
+.possition p {
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+    font-size: 1.1rem;
+    font-family: "Questrial", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+}
+
+.Weddinga {
+    background-image: url("slike/other.JPG");
+    background-size: cover;
+    object-fit: cover;
+    width: 500px;
+    height: 40rem;
+    position: relative;
+    filter: contrast(150%) brightness(60%);
+    transition: filter 0.6s ease-in-out;
+
+}
+
+.Weddinga:hover {
+    filter: none;
+}
+
+.Shooting:hover {
+    filter: none;
+}
+
+.Wedding:hover {
+    filter: none;
+}
+
+.possition h1 {
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+    font-size: 1.1rem;
+    font-family: "Questrial", sans-serif;
+    font-weight: 900;
+
+}
+
+.firstVideo {
+    background-image: url("slike/video.gif");
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(90%);
+    background-size: cover;
+    background-color: #f6f6f3;
+    image-rendering: auto;
+    image-resolution: from-image snap;
+
+}
+
+.secondVideo {
+    background-image: url("slike/video2.gif");
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(90%);
+    background-size: cover;
+    background-color: #f6f6f3;
+    image-rendering: auto;
+    image-resolution: from-image snap;
+}
+
+.video1 {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 90%;
+    height: 40rem;
+    margin: 0 auto;
+    background: #ccc;
+    margin-top: 200px;
+
+    background-color: #f6f6f3;
+}
+
+.PhotoH1 {
+
+    text-align: center;
+    font-size: 3rem;
+    color: #101010;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+}
+
+.photoImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photoImages li {
+    background-size: cover;
+    object-fit: cover;
+    width: 550px;
+    height: 25rem;
+    position: relative;
+    filter: contrast(150%) brightness(60%);
+    transition: filter 0.6s ease-in-out;
+    list-style: none;
+}
+
+.photoImages li:hover {
+    filter: none;
+}
+
+.img1 {
+    background-image: url("imgSLider/maja.png");
+    background-size: fill;
+    object-fit: cover;
+    width: 450px;
+    height: 25rem;
+    position: relative;
+    filter: contrast(150%) brightness(60%);
+    transition: filter 0.6s ease-in-out;
+}
+
+.img2 {
+    background-image: url("imgSLider/slika10.jpg");
+    background-size: cover;
+    object-fit: cover;
+    width: 450px;
+    height: 25rem;
+    position: relative;
+    filter: contrast(150%) brightness(60%);
+    transition: filter 0.6s ease-in-out;
+}
+
+.img3 {
+    background-image: url("imgSLider/3.jpg");
+}
+
+.img4 {
+    background-image: url("imgSLider/4.jpg");
+}
+
+.img5 {
+    background-image: url("imgSLider/krstenje.png");
+}
+
+.img6 {
+    background-image: url("imgSLider/slika6.png");
+}
+
+.img7 {
+    background-image: url("imgSLider/7.jpg");
+}
+
+.img8 {
+    background-image: url("imgSLider/8.jpg");
+}
+
+.img9 {
+    background-image: url("imgSLider/9.jpg");
+}
+
+
+.plans {
+    text-align: center;
+    font-size: 3rem;
+    color: #101010;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+}
+
+.Prices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.Prices div {
+    background-color: #fff;
+    position: relative;
+    padding: 5em 3rem 5rem 3rem;
+    color: #000;
+    margin: 1rem;
+    background-size: cover;
+    max-width: 370px;
+    width: 100%;
+
+}
+
+.naslov {
+    font-size: 1.5rem;
+    font-family: "Questrial", sans-serif;
+    font-weight: 900;
+}
+
+.Standard p {
+    font-family: "Questrial", sans-serif;
+    padding: 10px;
+}
+
+.Special p {
+    font-family: "Questrial", sans-serif;
+    padding: 10px;
+}
+
+.Premium p {
+    font-family: "Questrial", sans-serif;
+    padding: 10px;
+}
+
+.zaposleni {
+    text-align: center;
+    font-size: 3rem;
+    color: #101010;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+}
+
+.testimonials {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    max-width: 1200px;
+    width: 95%;
+    gap: 40px;
+}
+
+.testimonials .card {
+    position: relative;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(212, 206, 206, 0.5);
+    overflow: hidden;
+    width: 380px;
+    cursor: pointer;
+
+}
+
+.testimonials .card .layer {
+    position: absolute;
+    top: calc(100% - 3px);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: linear-gradient(#becaa1, #d3d3c6);
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+.testimonials .card:hover .layer {
+    top: 0;
+}
+
+.testimonials .card .content {
+    position: relative;
+    z-index: 2;
+}
+
+.testimonials .card .content p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.testimonials .card .content .image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 20px;
+}
+
+.card .content .details h2 {
+    font-size: 15px;
+    color: #031324;
+}
+
+.card .content .details h2 span {
+    color: #313396;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.card:hover .content .details h2 {
+    color: rgba(255, 255, 255, 0.986);
+}
+
+.card:hover .content p {
+    color: rgba(255, 255, 255, 0.986);
+}
+
+.card:hover .content h2 span {
+    color: rgba(255, 255, 255, 0.986);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 5rem;
+    gap: 50px;
+
+}
+
+.footer1 {
+    max-width: 500px;
+}
+
+.footer1 img {
+    width: 200px;
+}
+
+.galerijaH2 {
+    text-align: center;
+    font-size: 3rem;
+
+}
+.firstSection{
+    padding: 20px;
+}
+.Artikli {
+    display: flex;
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Artikli h3 {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    opacity: 0.6;
+    transition: 0.6s;
+
+}
+.Artikli h3:hover{
+    opacity: 1;
+}
+.Artikli h3:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    opacity: 1;
+    
+}
+.Artikli h3:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    opacity: 1;
+}
+.imageGallerySection div{
+    max-width: 400px;
+    cursor: pointer;
+   margin-bottom: 15px;
+}
+.imageGallerySection div img {
+    
+    object-fit: cover;
+}
+.linija{
+    margin-bottom: 5px;
+    width: 3%;
+    height: 1px;
+    background-color: black;
+}
+.description{
+    font-family: PT Sans;
+    font-style: oblique;
+    opacity: 0.6;
+}
+.imageGallerySection div :hover{
+filter:brightness(40%);
+transition: filter 0.6s ease-in-out;
+}
+.h3podnaslov{
+    margin:0px;
+}
+.h3podnaslov:hover{
+    color: red;
+    transition: filter 0.6s ease-in-out;
+}
+.imageGallerySection{
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+#povratak{
+color: rgb(216, 81, 81);
+cursor: pointer;
+text-align: center;
+font-size: 1.1rem;
+font-weight: bold;
+-webkit-transition: color 1s;
+transition: color 1s;
+}
+#povratak:hover{
+   color: black;
+}
+.LepirSection{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+.IV{
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    image-resolution: from-image;
+    image-resolution: 300dpi;
+    object-fit: contain;
+
+}
+.IV{
+    border-radius: 0px;
+    filter: brightness(100%);
+    transition: all 0.7s ease;
+}
+.IV:hover{
+    filter: brightness(35%);
+ }
+.IV:hover + .iconsDisNone{
+    display: block;
+   
+  
+} 
+.iconsDisNone:hover{
+    display: block;
+    
+}
+.iconsDisNone{
+    display: none;
+    position:absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+}
+
+.IvonaGalery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.IvonaGalery div { 
+    width: 300px;
+    height: 300px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.IvonaGalery img {
+    padding-bottom: 15px;
+}
+.leftBtn, .rightBtn{
+    width: 50px!important;
+    height: 50px!important;
+}
+.leftBtn{
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    cursor: pointer;
+}
+.rightBtn{
+position: fixed;
+top: 40%;
+right: 0%;
+transform: rotate(180deg);
+
+
+}
+
+.modal-section {
+	max-width: 1000px;
+ 	padding: 100px;
+ 	margin: auto;
+	 display: flex;
+}
+
+.modal-section button {
+	padding: 20px;
+	font-size: 22px;
+	margin: auto;
+	display: block;
+	max-width: 350px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.popup-modal {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 10%;
+	z-index: 200;
+	max-width: 800px;
+	margin: auto;
+    cursor: pointer;
+}
+.popup-modal img{
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    image-resolution: from-image;
+}
+
+.iksCase{
+    position: fixed;
+    width: 40px!important;
+    height: 40px!important;
+    top: 1%;
+    right: 1%;
+}
+.popup-modal button {
+	font-size: 26px;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background-color: transparent;
+	font-weight: bold;
+	border: 0;
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.863);
+}
+.flexVI{
+    display: flex;
+    flex-wrap: wrap;
+}
+

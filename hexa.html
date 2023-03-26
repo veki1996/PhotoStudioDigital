@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="digital.css">
+    <title>Digital</title>
+</head>
+
+<body>
+    <div class="MENU">
+        <img width="160px" class="logo" src="slike/DigitalDARK1.png" />
+        <div class="menu-end">
+            <img class="icons" src="slike/menu.icons.jfif" />
+            <img class="icons2" src="slike/x-case.jpg" />
+        </div>
+    </div>
+
+    <div class="closeMENU">
+        <li><b>Izmjeni nalog</b></li>
+        <li id="loginEvent"><b>logout </b></li>
+        <li><b></b></li>
+    </div>
+
+    <div class="wrapper">
+        <div class="chat">
+            <div class="display">
+                <div class="ask">
+                    <img class="logoChat" src="slike/DigitalDARK1.png" />
+                    <input class="inputforQuestion" placeholder="Ask a question">
+                    <p style="font-size: small;">Odgovor ce vam biti poslat putem mail-a u najkracem roku.Hvala!</p>
+                    <button onclick="Send()">SEND</button>
+                </div>
+            </div>
+            <div id="chatICONS">
+                <img onclick="chatIcon()" src="slike/slika1.jpg">
+            </div>
+            <img id="question" src="slike/question.jpg">
+            <div class="displayBlock">
+
+                <div class="chatsForCLients ">
+                    <img class="chat-logo" src="slike/DigitalDARK1.png" />
+                    <div class="closeChat">
+                        <p>Welcome to Chat</p>
+                        <img onclick="minimize()" style="width: 34px;" src="slike/smanji.png">
+                    </div>
+                    <p>Welcome to Chat Please Fill in the form below before starting the chat</p>
+                    <label>Name:*</label>
+                    <input id="Name">
+                    <p class="NameEror"></p>
+                    <Label>E-mail:*</Label>
+                    <input id="Email">
+                    <p class="EmailEror"></p>
+                    <button class="chatBTN" onclick="prijava()">Start the chat</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="first-step">
+
+            <div class="first-part">
+                <p style="margin-bottom: 0px;">Proffesional</p>
+                <p style="margin-top: 0px;">Photographer</p>
+                <p class="Bojan">Bojan Vecernovic</p>
+                <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique dicta facilis
+                    minima odit delectus perferendis itaque nemo at excepturi, unde, eveniet modi rerum veritatis
+                    tempore soluta incidunt provident et reprehenderit.
+                </p>
+                <button class="Btn-contact"><a style="text-decoration: none;" href="#futer">Contact Me</a></button>
+            </div>
+            <div class="img-holder">
+            </div>
+        </div>
+
+        <div class="about">
+            <img src="slike/slika3.jpg" />
+            <div class="box-for-colors">
+                <div class="text-for-box">
+                    <h2>15+ years expirience</h2>
+                    <h1>I transform your </h1>
+                    <h1>moments in beautiful </h1>
+                    <h1>memories</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto veritatis facere eaque
+                        velit, sint harum, nobis cupiditate blanditiis labore aliquam in quae quia ea necessitatibus
+                        asperiores doloremque. Placeat, a!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="service"><b> My Services</b></p>
+        <div class="My-Services">
+            <div class="Wedding possition">
+
+                <p>WEDDING SERVICES</p>
+            </div>
+            <div class="Shooting possition">
+
+                <p>PORTRAIT SESSIONS</p>
+            </div>
+            <div class="Weddinga possition">
+                <p>SPECIAL EVENTS</p>
+            </div>
+        </div>
+
+        <div class="video1">
+            <iframe class="firstVideo" height="700px" width="1000px"></iframe>
+        </div>
+
+        <div style="margin-top: 70px;" class="video1">
+            <iframe class="secondVideo" height="700px" width="1000px"></iframe>
+        </div>
+        <div class="PhotoH1">
+            <p><b>Photo Gallery</b></p>
+        </div>
+
+        <ul class="photoImages">
+            <li class="img1"></li>
+            <li class="img2"></li>
+            <li class="img3"></li>
+            <li class="img4"></li>
+            <li class="img5"></li>
+            <li class="img6"></li>
+            <li class="img7"></li>
+            <li class="img8"></li>
+            <li class="img9"></li>
+            <li class="img10"></li>
+        </ul>
+
+        <div class="plans">
+            <p><b>Pricing Plans</b></p>
+        </div>
+
+        <div class="Prices">
+            <div class="Standard">
+                <h1 class="naslov">Standard</h1>
+                <p>Krstenja, Svadbe</p>
+                <h1>100Km</h1>
+                <h2>Standard Features</h2>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> 3 hours shooting</p>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> dasjdkasdjkasdjask</p>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> dasjdhasjdhasdjashd</p>
+            </div>
+            <div class="Special">
+                <h1 class="naslov">Special</h1>
+                <p>Krstenja, Svadbe Rodjendani</p>
+                <h1>150Km</h1>
+                <h2>Special Features</h2>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> 6 hours shooting</p>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> dasjdkasdjkasdjask</p>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> dasjdhasjdhasdjashd</p>
+            </div>
+            <div class="Premium">
+                <h1 class="naslov">Premium</h1>
+                <p>Sva Desavanja</p>
+                <h1>200Km</h1>
+                <h2>Premium Features</h2>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> 6 hours shooting</p>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> dasjdkasdjkasdjask</p>
+                <p><img style="width: 16px;" src="slike/correct.jpg" /> dasjdhasjdhasdjashd</p>
+            </div>
+        </div>
+        <div class="zaposleni">
+            <p> slobodni termini</p>
+        </div>
+
+        <div class="testimonials" id="testimonies">
+            <div class="card">
+                <div class="layer"></div>
+                <div class="content">
+                    <p>I never worked with someone so passionate and skilled in my life. It seemed like every step of
+                        the way Bojan was not only ahead of schedule, but did it with a smile.It is always a pleasure to
+                        work with Bojan, he is a great worker and he is a real friend even outside of work. Whenever
+                        needed he is there to give some advice and to help.</p>
+                    <div class="image">
+                        <img style="width: 100px;" src="slike/bojan.jpg" />
+                    </div>
+                    <div class="details">
+                        <h2>Bojan 
+                            <br>
+                            <span>Fotograf i Kamerman</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="layer"></div>
+                <div class="content">
+                    <p>I never worked with someone so passionate and skilled in my life. It seemed like every step of
+                        the way Bojan was not only ahead of schedule, but did it with a smile.It is always a pleasure to
+                        work with Bojan, he is a great worker and he is a real friend even outside of work. Whenever
+                        needed he is there to give some advice and to help.</p>
+                    <div class="image">
+                        <img style="width: 100px;" src="slike/miroslav.jpg" />
+                    </div>
+                    <div class="details">
+                        <h2>Miroslav 
+                            <br>
+                            <span>Forograf i Kamerman</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="layer"></div>
+                <div class="content">
+                    <p>It was a pleasure to teach Bojan, he was never late for classes, he always came regularly, he
+                        didn't miss a single class. He solved his tasks with ease, and he was always looking for more
+                        tasks to solve, so I can say only the best about Bojan.
+                    </p>
+                    <div class="image">
+                        <img style="width:150px ;" src="slike/igor.jpg" />
+                    </div>
+                    <div class="details">
+                        <h2>
+                            Igor  <br>
+                            <span>Kamerman</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="futer" class="footer">
+            <div class="footer1">
+                <img src="slike/DigitalDARK1.png" />
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic odit excepturi amet impedit laborum
+                    fuga cumque tempora molestiae soluta corrupti error minima natus, asperiores quasi, qui ducimus,
+                    totam a quo!
+                </p>
+            </div>
+            <div class="footer2">
+                <p>bojan.vecernovic@gmail.com</p>
+                <p>+387 66 193 978</p>
+                <p>Adress: Srbac, 27. Juli, Br: 7.</p>
+            </div>
+        </div>
+    </div>
+   
+    <script src="hexa.js"></script>
+</body>
+
+</html>
