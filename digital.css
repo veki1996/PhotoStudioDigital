@@ -306,7 +306,6 @@ body {
 .logo {
     position: absolute;
     left: 60px;
-    top: 40px;
 }
 
 .menu-end {
@@ -841,9 +840,11 @@ li:hover {
     font-size: 3rem;
 
 }
-.firstSection{
+
+.firstSection {
     padding: 20px;
 }
+
 .Artikli {
     display: flex;
     font-size: 1.1rem;
@@ -862,9 +863,11 @@ li:hover {
     transition: 0.6s;
 
 }
-.Artikli h3:hover{
+
+.Artikli h3:hover {
     opacity: 1;
 }
+
 .Artikli h3:after {
     content: '';
     position: absolute;
@@ -877,70 +880,83 @@ li:hover {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
     opacity: 1;
-    
+
 }
-.Artikli h3:hover:after{
+
+.Artikli h3:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
     opacity: 1;
 }
-.imageGallerySection div{
+
+.imageGallerySection div {
     max-width: 400px;
     cursor: pointer;
-   margin-bottom: 15px;
+    margin-bottom: 15px;
 }
+
 .imageGallerySection div img {
-    
+
     object-fit: cover;
 }
-.linija{
+
+.linija {
     margin-bottom: 5px;
     width: 3%;
     height: 1px;
     background-color: black;
 }
-.description{
+
+.description {
     font-family: PT Sans;
     font-style: oblique;
     opacity: 0.6;
 }
-.imageGallerySection div :hover{
-filter:brightness(40%);
-transition: filter 0.6s ease-in-out;
+
+.imageGallerySection div :hover {
+    filter: brightness(40%);
+    transition: filter 0.6s ease-in-out;
 }
-.h3podnaslov{
-    margin:0px;
+
+.h3podnaslov {
+    margin: 0px;
 }
-.h3podnaslov:hover{
+
+.h3podnaslov:hover {
     color: red;
     transition: filter 0.6s ease-in-out;
 }
-.imageGallerySection{
+
+.imageGallerySection {
     display: flex;
     padding-top: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-   
+
 }
-#povratak{
-color: rgb(216, 81, 81);
-cursor: pointer;
-text-align: center;
-font-size: 1.1rem;
-font-weight: bold;
--webkit-transition: color 1s;
-transition: color 1s;
+
+#povratak {
+    color: rgb(216, 81, 81);
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    -webkit-transition: color 1s;
+    transition: color 1s;
 }
-#povratak:hover{
-   color: black;
+
+#povratak:hover {
+    color: black;
 }
-.LepirSection{
+
+.LepirSection {
     padding-left: 20px;
     padding-right: 20px;
     max-width: 1100px;
     margin: auto;
 }
-.IV{
+
+.IV {
     padding: 15px;
     width: 300px;
     height: 300px;
@@ -950,131 +966,216 @@ transition: color 1s;
     object-fit: contain;
 
 }
-.IV{
+
+.IV {
     border-radius: 0px;
     filter: brightness(100%);
     transition: all 0.7s ease;
 }
-.IV:hover{
+
+.IV:hover {
     filter: brightness(35%);
- }
-.IV:hover + .iconsDisNone{
-    display: block;
-   
-  
-} 
-.iconsDisNone:hover{
-    display: block;
-    
 }
-.iconsDisNone{
+
+.IV:hover+.iconsDisNone {
+    display: block;
+
+
+}
+
+.iconsDisNone:hover {
+    display: block;
+
+}
+
+.iconsDisNone {
     display: none;
-    position:absolute;
+    position: absolute;
     cursor: pointer;
     top: 50%;
     left: 50%;
 }
 
-.IvonaGalery{
+.IvonaGalery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.IvonaGalery div { 
+
+.IvonaGalery div {
     width: 300px;
     height: 300px;
     position: relative;
     padding-bottom: 15px;
 }
+
 .IvonaGalery img {
     padding-bottom: 15px;
 }
-.leftBtn, .rightBtn{
-    width: 50px!important;
-    height: 50px!important;
+
+.leftBtn,
+.rightBtn {
+    width: 50px !important;
+    height: 50px !important;
 }
-.leftBtn{
+
+.leftBtn {
     position: fixed;
     top: 40%;
     left: 0%;
     cursor: pointer;
 }
-.rightBtn{
-position: fixed;
-top: 40%;
-right: 0%;
-transform: rotate(180deg);
+
+.rightBtn {
+    position: fixed;
+    top: 40%;
+    right: 0%;
+    transform: rotate(180deg);
 
 
 }
 
 .modal-section {
-	max-width: 1000px;
- 	padding: 100px;
- 	margin: auto;
-	 display: flex;
+    max-width: 1000px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
 }
 
 .modal-section button {
-	padding: 20px;
-	font-size: 22px;
-	margin: auto;
-	display: block;
-	max-width: 350px;
-	width: 100%;
-	cursor: pointer;
+    padding: 20px;
+    font-size: 22px;
+    margin: auto;
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    cursor: pointer;
 }
 
 .popup-modal {
-	display: none;
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 10%;
-	z-index: 200;
-	max-width: 800px;
-	margin: auto;
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10%;
+    z-index: 200;
+    max-width: 800px;
+    margin: auto;
     cursor: pointer;
 }
-.popup-modal img{
+
+.popup-modal img {
     width: 700px;
     height: 700px;
     object-fit: contain;
     image-resolution: from-image;
 }
 
-.iksCase{
+.iksCase {
     position: fixed;
-    width: 40px!important;
-    height: 40px!important;
+    width: 40px !important;
+    height: 40px !important;
     top: 1%;
     right: 1%;
 }
+
 .popup-modal button {
-	font-size: 26px;
-	cursor: pointer;
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	background-color: transparent;
-	font-weight: bold;
-	border: 0;
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    border: 0;
 }
 
 .overlay {
-	display: none;
-	position: fixed;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 100;
-	background-color: rgba(0, 0, 0, 0.863);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.863);
 }
-.flexVI{
+
+.flexVI {
     display: flex;
     flex-wrap: wrap;
 }
 
+@media screen and (max-device-width:900px),
+screen and (max-width:350px) {
+    .first-step {
+        flex-wrap: wrap;
+    }
+
+    .img-holder {
+        display: none;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .Prices {
+        flex-wrap: wrap;
+    }
+
+    .about img {
+        height: auto;
+    }
+
+    .photoImages {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-device-width:700px),
+screen and (max-width:300px) {
+    .onpagemenu li {
+        font-size: small;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .popup-modal img{
+        width: 300px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+
+@media screen and (max-device-width:400px),
+screen and (max-width:200px) {
+    .imageGallerySection div img {
+        width: 200px;
+        justify-content: center;
+    }
+
+    .Artikli {
+        font-size: small;
+        margin-left: 5px;
+    }
+
+    .logo {
+        display: none;
+    }
+}
