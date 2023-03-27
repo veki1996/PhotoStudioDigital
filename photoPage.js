@@ -98,12 +98,13 @@ document.querySelector('#closeModalReg').addEventListener('click', () => {
     document.querySelector('.custom-modal').style.display = "none"
 })
 
-document.querySelector('.icons').addEventListener('click', () => {
+/*document.querySelector('.icons').addEventListener('click', () => {
     document.querySelector('.wrapper').style.display = 'none'
     document.querySelector('.closeMENU').style.display = 'block'
     document.querySelector('.icons2').style.display = 'block'
     document.querySelector('.icons').style.display = 'none'
 })
+
 document.querySelector('.icons2').addEventListener('click', () => {
     document.querySelector('.wrapper').style.display = 'block'
     document.querySelector('.closeMENU').style.display = 'none'
@@ -112,7 +113,7 @@ document.querySelector('.icons2').addEventListener('click', () => {
     document.querySelector('.custom-modal').style.display = 'none'
     document.querySelector('#login-modal').style.display = 'none'
 })
-
+*/
 
 
 const chatIcon = () => {
