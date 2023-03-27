@@ -1169,13 +1169,19 @@ screen and (max-width:200px) {
         width: 200px;
         justify-content: center;
     }
-
+    .My-Services{
+        flex-wrap: wrap;
+    }
     .Artikli {
-        font-size: small;
+        font-size: xx-small;
+        margin-left: 2px;
+    }
+    .Artikli h3{
         margin-left: 5px;
     }
 
     .logo {
         display: none;
     }
+   
 }
